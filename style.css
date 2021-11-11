@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .nav {
@@ -21,3 +21,14 @@
     height: 300px;
 }
 
+.staff > a {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-content: center;
+}
+
+.staff a div {
+    text-align: center;
+}
