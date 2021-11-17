@@ -32,3 +32,20 @@
 .staff a div {
     text-align: center;
 }
+
+
+@media (max-width: 900px) {
+    .list {
+        grid-template-columns: 1fr;
+    }
+
+    .nav {
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 100px 70px;
+    }
+    
+    .logo {
+        grid-row: 1 / 2;
+    }
+    
+}
